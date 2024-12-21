@@ -1,0 +1,11 @@
+langchain
+langchain_community
+streamlit
+
+langchain-huggingface
+langchain-groq
+langchain-chroma
+
+python-dotenv
+pypdf
+faiss-cpu
