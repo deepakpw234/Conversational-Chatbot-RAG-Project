@@ -124,9 +124,9 @@ if groq_api_key:
                 config={"configurable":{"session_id":session_id}}
             )
 
-            st.write(st.session_state.store)
+            # st.write(st.session_state.store)
             st.write(response['answer'])
-            st.write("chat history",session_history.messages)
+            # st.write("chat history",session_history.messages)
 
 else:
     st.warning("Please enter the groq api key")
